@@ -1,38 +1,156 @@
+@font-face {
+  font-family: 'script';
+  src: url('fonts/scripts/Cookie-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url('fonts/opensans/OpenSans-Regular-webfont.eot');
+  src: url('fonts/opensans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),
+       url('fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype'),
+       url('fonts/opensans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .App {
   text-align: center;
+  font-family: "opensans";
+  margin: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr {
+  border: 0.5px solid #ebebeb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  margin: 0;
+  color:black;
+}
+
+h2 {
+  font-family: "script";
+  font-size: 35px;
+}
+
+a {
+  color: black;
+}
+
+.fa {
+  color:black;
+}
+
+/* Intro */ 
+.Intro {
+  margin: 20px;
+}
+
+.Intro div .MuiGrid-root {
+  align-items: flex-end;
+}
+
+.MuiCard-item {
+  padding: 0;
+}
+
+.Intro img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  /* border: 5px solid #fc7982; */
+}
+
+.Intro h1 {
+  color: "black";
+  font-family: "script";
+  font-size: xxx-large;
+}
+
+.Intro ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Intro ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* MainRow  */
+.MainRow.MuiGrid-root {
+  border-right: 1px solid #ebebeb;
+} 
+
+.MainRow li {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.MainRow p {
+  font-family: "opensans";
+}
+
+/* Projects */
+
+.Projects {
+  text-align: left;
+}
+
+.MuiTypography-root {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.Projects ul .MuiCard-root {
+  display: inline-block;
+  margin: 20px;
+  min-width: fit-content;
+}
+
+.Projects li img {
+  max-width: 100%;
+}
+
+.MuiChip-root {
+  background: #fff !important;
+  color: #ff7d86 !important;
+  border: 1px solid #ff7d86 !important;
+}
+
+.MuiButton-root {
+  border: 1px solid !important;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19) !important;
+  margin: 10px !important;
+  color: black !important;
+}
+
+.project-body {
+  margin-left: 30px
+}
+
+@media only screen and (max-width: 1000px) {
+  .Intro div .MuiGrid-root {
+    text-align: center !important;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .Projects li img {
+    max-width: 100px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Projects div .MuiGrid-root {
+    text-align: center !important;
+  }
+
+  .project-body {
+    margin-left: 0
   }
 }
