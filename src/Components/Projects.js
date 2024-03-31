@@ -11,12 +11,11 @@ class Projects extends Component {
         const projects = [
             {
                 "img": "3.png",
-                "name": "Deploying Bank Churn Prediction Model using ZenML, MLflow and Streamlit",
-                "url": "https://legacy.reactjs.org/docs/conditional-rendering.html",
-                "desc": "We do not recommend using this approach in production. It requires the client to download the entire library—regardless of which components are actually used—which negatively impacts performance and bandwidth utilization.",
+                "name": "End-to-end Object Detection for Fovea Location of AMD Patients",
+                "url": "https://github.com/indra-a/object-detection-project.git",
+                "desc": "In this project, my goal is to experiment with different Computer Vision model architectures and parameters in context of Single Object Detection problem. Starting with simple architecture and no additional regularization all the way to complex structures and regularizations, I built different models and compared their performance. The purpose of this project is to experiment with different combinations of model structure and model parameters using MLFlow.",
                 "tools": [
-                    {'name':"CatBoost"}, 
-                    {'name':"ZenML"}, 
+                    {'name':"PyTorch"}, 
                     {'name':"MLflow"}, 
                     {'name':"Streamlit"}
                 ]

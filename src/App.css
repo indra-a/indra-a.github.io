@@ -122,8 +122,8 @@ a {
 
 .MuiChip-root {
   background: #fff !important;
-  color: #ff7d86 !important;
-  border: 1px solid #ff7d86 !important;
+  color: black !important;
+  border: 1px solid black !important;
 }
 
 .MuiButton-root {

@@ -36,14 +36,14 @@ class IntroRow extends Component {
       return (
         <div className='Intro'>
             <Grid container spacing={4}>
-                <Grid item xs={12} md={4} style = {{"text-align": "end"}}>
+                <Grid item xs={12} md={2} style = {{"text-align": "start"}}>
                     <img
                     className="profile-pic"
                     src={profilepic}
                     alt="Profile Pic"
                     />
                 </Grid>
-                <Grid item xs={12} md={8} style = {{"text-align": "justify"}}>
+                <Grid item xs={12} md={10} style = {{"text-align": "justify"}}>
                     <h1 className="responsive-headline">{name}</h1>
                     <p>{description}</p>
                     <ul className='sns'>{social}</ul>
