@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8a30520.css",
+    "main.js": "/static/js/main.fc5df0af.js",
+    "static/js/453.b12277cc.chunk.js": "/static/js/453.b12277cc.chunk.js",
+    "static/media/1.png": "/static/media/1.0649e3d4a516b67bdc44.png",
+    "static/media/4.png": "/static/media/4.130cff5867fdf7941c90.png",
+    "static/media/3.png": "/static/media/3.a08e5c3f13831f9b1028.png",
+    "static/media/2.png": "/static/media/2.a2d39b766ff727de082c.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/05.jpg": "/static/media/05.6ea71bdefc3bd5c7909d.jpg",
+    "static/media/02.jpg": "/static/media/02.dd37e596b45df8ed6805.jpg",
+    "static/media/OpenSans-Regular-webfont.svg": "/static/media/OpenSans-Regular-webfont.5ff1dd82cda29e66a659.svg",
+    "static/media/03.jpg": "/static/media/03.6efb54ad645aaa058593.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/04.jpg": "/static/media/04.af4981101e51f62a9317.jpg",
+    "static/media/06.jpg": "/static/media/06.5bf25cdff2a03b8b5439.jpg",
+    "static/media/picture.jpg": "/static/media/picture.65e82869fb286981eb2d.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/01.jpg": "/static/media/01.697624095d8cbe7bc1b7.jpg",
+    "static/media/Cookie-Regular.ttf": "/static/media/Cookie-Regular.063fc3ec8398f168926a.ttf",
+    "static/media/OpenSans-Regular-webfont.ttf": "/static/media/OpenSans-Regular-webfont.8fb0006312b4968c978e.ttf",
+    "static/media/OpenSans-Regular-webfont.woff": "/static/media/OpenSans-Regular-webfont.4f6ec530947c73b0c1dd.woff",
+    "static/media/OpenSans-Regular-webfont.eot": "/static/media/OpenSans-Regular-webfont.fbe7f69768218ba06417.eot",
+    "index.html": "/index.html",
+    "main.d8a30520.css.map": "/static/css/main.d8a30520.css.map",
+    "main.fc5df0af.js.map": "/static/js/main.fc5df0af.js.map",
+    "453.b12277cc.chunk.js.map": "/static/js/453.b12277cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8a30520.css",
+    "static/js/main.fc5df0af.js"
+  ]
+}
